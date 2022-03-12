@@ -1,0 +1,146 @@
+* {
+    font-family: 'Prompt', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+    line-height: 1.5;
+}
+
+body {
+    background-image: url("/image/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    background: linear-gradient(90deg, white 15%, rgb(186, 224, 240));
+}
+
+
+.logo {
+    margin-left: 5%;
+}
+ .small-logo {
+     display: none;
+ }
+li {
+    display: inline-block; 
+    padding-inline-end: 50px;
+}
+
+li a {
+    color: white;
+    margin: 5px;
+}
+
+li a:hover {
+    color: gold;
+    letter-spacing: 3px;
+}
+
+.home {
+    padding: 5px, 10%;
+    display: flex;
+}
+
+article {
+    height: auto;
+    width: 700px;
+    margin-top: 35vh;
+    margin-left: 30vh;
+    line-height: 8;
+    position: relative;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+p {
+   margin-top: 10px; 
+}
+
+.btm {
+    border-radius: 5%;
+    background-color: orange;
+    text-align: center;
+    text-transform: initial;
+    padding: 8px 15px;
+    font-size: 15px;
+    color: white;   
+}
+
+.btm:hover {
+    background-color: transparent;
+    letter-spacing: 5px;
+    color: orange;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+}
+
+.social-media a {
+    padding: 0 20px;
+    transform: scale(1.2);
+    color: skyblue;
+}
+
+.social-media a:hover {
+    transform: scale(2);
+    color:orange;
+}
+
+span {
+    color:orange;
+}
+
+@media only screen and (max-width: 850px) {
+ li {
+     display: flex;
+ }
+ 
+ li a {
+     margin: 1px;
+ }
+
+ .logo {
+     display: none;
+ }
+
+ .small-logo {
+     display: flex;
+     font-size: 40px;
+     height: auto;
+     margin-left: 10%;
+ }
+
+ header {
+     height: auto;
+ }
+
+ article {
+    margin: 30vh 10vh; 
+ }
+
+ btm {
+     margin-top: 300px;
+ }
+}
