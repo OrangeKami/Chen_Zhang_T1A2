@@ -9,13 +9,6 @@
     line-height: 1.5;
 }
 
-body {
-    background-image: url("/image/home.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-attachment: fixed
-}
-
 header {
     display: flex;
     align-items: center;
@@ -25,7 +18,6 @@ header {
     height: 5%;
     background: linear-gradient(90deg, white 30%, skyblue);
 }
-
 
 .logo {
     margin-left: 5%;
@@ -48,43 +40,19 @@ li a:hover {
     letter-spacing: 3px;
 }
 
-.home {
-    padding: 5px, 10%;
-    display: flex;
+body {
+    background: #fcf2e8;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-article {
-    height: auto;
-    width: 700px;
-    margin-top: 35vh;
-    margin-left: 30vh;
-    line-height: 8;
-    position: relative;
-}
 
-h1 {
-    font-size: 25px;
-}
 
-p {
-   margin-top: 10px; 
-}
 
-.btm {
-    border-radius: 5%;
-    background-color: orange;
-    text-align: center;
-    text-transform: initial;
-    padding: 8px 15px;
-    font-size: 15px;
-    color: white;   
-}
 
-.btm:hover {
-    background-color: transparent;
-    letter-spacing: 5px;
-    color: orange;
-}
+
+
+
 
 footer {
     display: flex;
@@ -95,7 +63,7 @@ footer {
     bottom: 0;
     justify-content: center;
     padding-top: 10px;
-    background: white;
+    background:white;
 }
 
 .social-media a {
@@ -137,11 +105,7 @@ span {
      height: auto;
  }
 
- article {
-    margin: 30vh 10vh; 
- }
+ 
 
- btm {
-     margin-top: 300px;
- }
+
 }
