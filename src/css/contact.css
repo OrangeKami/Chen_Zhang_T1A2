@@ -40,19 +40,14 @@ li a:hover {
     letter-spacing: 3px;
 }
 
-body {
-    background: #fcf2e8;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 .contact {
-    padding: 10vh;
+    padding: 15vh;
 }
 
 .contact h1 {
     font-size: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 .container {
     display: flex;
@@ -62,7 +57,7 @@ body {
 
 
 .contact .icon  {
-    flex:1 1 400px;
+    flex: 1 1 400px;
     text-align: center;
     padding:10px;
     background: transparent;
@@ -72,7 +67,9 @@ body {
 
 .contact .icon:hover {
     background: white;
-    flex: 1 1 500px;
+    flex: 1 1 450px;
+    letter-spacing: 2px;
+    color: orange;
 }
 .icon i {
     height:80px;
@@ -81,6 +78,7 @@ body {
     font-size: 30px;
     color: orange;
 }
+
 .icon h4 {
     text-transform: uppercase;
 }
@@ -119,17 +117,19 @@ body {
 
 .contact .row form textarea{
     height: 200px;
-    resize: none;
 }
 
 .btm {
-    margin-top: 0;
-    margin-bottom: 20px;
+    border-radius: 5%;
     background-color: orange;
-    width: 120px;
-    height: 30px;
-    color: white;
+    text-align: center;
+    text-transform: initial;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: white;   
 }
+
 .btm:hover {
     background-color: transparent;
     letter-spacing: 5px;
@@ -139,14 +139,14 @@ body {
 
 
 footer {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 1vh;
     background:white;
 }
 
@@ -189,7 +189,13 @@ span {
      height: auto;
  }
 
+ .contact .icon {
+     min-width: 300px; 
+ }
+   
+.row form {
+    min-width: 300px;
+}
  
-
-
+ 
 }
