@@ -46,12 +46,96 @@ body {
     background-repeat: no-repeat;
 }
 
+.contact {
+    padding: 10vh;
+}
+
+.contact h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.contact .icon  {
+    flex:1 1 400px;
+    text-align: center;
+    padding:10px;
+    background: transparent;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: 10px;
+}  
+
+.contact .icon:hover {
+    background: white;
+    flex: 1 1 500px;
+}
+.icon i {
+    height:80px;
+    width:80px;
+    line-height: 70px;
+    font-size: 30px;
+    color: orange;
+}
+.icon h4 {
+    text-transform: uppercase;
+}
+
+.icon p {
+    line-height: 40px;
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.contact .row form{
+    flex:1 1 850px;
+    padding:0 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    
+}
+
+.contact .row form .single-form,
+.contact .row form textarea{
+    width: 100%;
+    border-bottom: 2px solid orange;
+    color:black;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 15px 0;
+    margin: 15px 0;
+    background-color: transparent;
+}
 
 
 
+.contact .row form textarea{
+    height: 200px;
+    resize: none;
+}
 
-
-
+.btm {
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: orange;
+    width: 120px;
+    height: 30px;
+    color: white;
+}
+.btm:hover {
+    background-color: transparent;
+    letter-spacing: 5px;
+    color: orange;
+    width: auto;
+}
 
 
 footer {
