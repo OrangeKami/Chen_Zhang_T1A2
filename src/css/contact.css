@@ -40,29 +40,113 @@ li a:hover {
     letter-spacing: 3px;
 }
 
-body {
-    background: #fcf2e8;
-    background-size: cover;
-    background-repeat: no-repeat;
+
+.contact {
+    padding: 15vh;
+}
+
+.contact h1 {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.contact .icon  {
+    flex: 1 1 400px;
+    text-align: center;
+    padding:10px;
+    background: transparent;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: 10px;
+}  
+
+.contact .icon:hover {
+    background: white;
+    flex: 1 1 450px;
+    letter-spacing: 2px;
+    color: orange;
+}
+.icon i {
+    height:80px;
+    width:80px;
+    line-height: 70px;
+    font-size: 30px;
+    color: orange;
+}
+
+.icon h4 {
+    text-transform: uppercase;
+}
+
+.icon p {
+    line-height: 40px;
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.contact .row form{
+    flex:1 1 850px;
+    padding:0 2rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    
+}
+
+.contact .row form .single-form,
+.contact .row form textarea{
+    width: 100%;
+    border-bottom: 2px solid orange;
+    color:black;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 15px 0;
+    margin: 15px 0;
+    background-color: transparent;
 }
 
 
 
+.contact .row form textarea{
+    height: 200px;
+}
 
+.btm {
+    border-radius: 5%;
+    background-color: orange;
+    text-align: center;
+    text-transform: initial;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: white;   
+}
 
-
-
+.btm:hover {
+    background-color: transparent;
+    letter-spacing: 5px;
+    color: orange;
+    width: auto;
+}
 
 
 footer {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 1vh;
     background:white;
 }
 
@@ -105,7 +189,13 @@ span {
      height: auto;
  }
 
+ .contact .icon {
+     min-width: 300px; 
+ }
+   
+.row form {
+    min-width: 300px;
+}
  
-
-
+ 
 }
