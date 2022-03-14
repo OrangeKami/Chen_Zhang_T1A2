@@ -15,8 +15,10 @@ header {
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    height: 5%;
+    height: 50px;
     background: linear-gradient(90deg, white 30%, skyblue);
+    z-index: 100;
+    top:0;
 }
 
 .logo {
@@ -41,17 +43,115 @@ li a:hover {
 }
 
 body {
-    background: #fcf2e8;
-    background-size: cover;
-    background-repeat: no-repeat;
+    display: flex;
+    background-color: lightcyan;
+}
+    
+
+h3 {
+    padding-top: 15vh;
+    padding-left: 15vh;
+    font-size: 40px;
+    text-transform: initial;
+    position: absolute;
 }
 
+figcaption {
+    margin-top: 30vh;
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+figcaption .project {
+    flex:0 1 400px;
+    height: 250px;
+    position: relative;
+    background: #fff;
+    margin: 40px 20px;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+figcaption .project:hover {
+    height: 420px;
+}
+
+@media only screen and (max-width: 850px) {
+    figcaption .project{
+        min-width: 400px;
+    }
+    
+    h3 {
+        padding-left: 5vh;
+        transition: 0.5s ease-in-out;
+    }
+
+    figcaption .btm {
+      margin-top: 100px;
+      padding: 10px 10px;
+    }
+}
+    
 
 
+figcaption .project .image {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 70px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 
+}
 
+figcaption .project .image img {
+    max-width: 100%;
+    height: 260px;
+    border-radius: 5px;
+}
 
+figcaption .project article {
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: orange;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
 
+figcaption .project:hover article {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+
+.btm {
+    border-radius: 5px;
+    background-color: orange;
+    text-align: center;
+    text-transform: initial;
+    padding: 8px 10px;
+    margin: 170px;
+    font-size: 15px;
+    color: white;   
+}
+
+.btm:hover {
+    background-color: transparent;
+    letter-spacing: 5px;
+    color: orange;
+    width: auto;
+}
 
 
 footer {
@@ -59,7 +159,7 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     justify-content: center;
     padding-top: 10px;

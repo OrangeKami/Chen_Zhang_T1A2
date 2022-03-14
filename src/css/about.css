@@ -13,9 +13,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: sticky;
     width: 100%;
-    height: 5%;
+    height: 50px;
     background: linear-gradient(90deg, white 30%, skyblue);
 }
 
@@ -41,17 +41,149 @@ li a:hover {
 }
 
 body {
-    background: #fcf2e8;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: lightcyan;   
 }
 
 
 
+.me h5 {
+    margin-top: 10vh;
+    margin-left: 15vh;
+    font-size: 40px;
+    text-transform: initial;
+}
+
+.me .blocks {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   margin: 5vh 15vh;
+}
+
+.me .net {
+    flex: 1 1 500px;
+    padding:20px;
+    background: transparent;
+    box-shadow: 4px 13px 30px 1px rgba(11, 39, 100, 0.2);
+    border-radius: 10px;
+}  
+
+.me .art1 {
+    line-height: 70px;
+    height: 450px;
+}
+
+.me .net:hover {
+    background: white;
+    transition: 1s ease-in-out;
+    /* box-shadow: 0px 14px 80px rgb(255, 187, 0); */
+}
+
+.me .art1 p {
+    padding-top: 20px;
+}
 
 
+.net .btm  {
+    border-radius: 5%;
+    background-color: orange;
+    text-align: center;
+    text-transform: initial;
+    padding: 8px 15px;
+    font-size: 15px;
+    color: white;      
+}
+
+.net .btm:hover {
+    background-color: transparent;
+    letter-spacing: 5px;
+    color: orange;
+}
+
+.me .skills {
+   display: flex;
+   flex-direction: column;
+   padding: 60px 20px;
+   border-radius: 10px;
+   height: 450px;
+}
+
+.me .skills .percentage h3{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.me .skills .percentage .line {
+    width: 100%;
+    background: lightgray;
+    overflow: hidden;
+    height: 15px;
+    border-radius: 100px;
+}
+
+.me .skills .percentage .line span {
+    display:block;
+    height:100%;
+    background:orange;
+    border-radius: 100px;
+}
+
+.me .skills .percentage:nth-child(1) .line span{
+    width: 90%;
+}
+.me .skills .percentage:nth-child(2) .line span{
+    width: 70%;
+}
+.me .skills .percentage:nth-child(3) .line span{
+    width: 30%;
+}
+.me .skills .percentage:nth-child(4) .line span{
+    width: 60%;
+}
 
 
+h4 {
+    margin-left: 15vh;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.me .person {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 3vh 15vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.me .person img {
+    height: 250px;
+    box-shadow: 4px 13px 30px 1px rgba(11, 39, 100, 0.2);
+}
+
+.me .person img:hover {
+    box-shadow: 0px 14px 80px rgb(255, 187, 0);
+}
+
+.top {
+    text-align: center;
+    text-transform: initial;
+    font-size: 10px;
+    color: orange;  
+    margin-bottom: 20%; 
+    display: none;
+}
+
+.top span {
+    font-size: 20px;
+}
+
+.top a {
+    color: lightblue;
+}
 
 
 footer {
@@ -59,7 +191,7 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     justify-content: center;
     padding-top: 10px;
@@ -105,7 +237,28 @@ span {
      height: auto;
  }
 
- 
+ .me .net {
+     min-width: 250px;
+     /* width: auto; */
+     height: auto;
+     /* max-height: 800px; */
+    margin-left: -50px;
+ }
 
+ .me .person {
+     margin-left: 25%;
+ }
 
+ .me h5,
+ .me h4 {
+     margin-left: 8vh;
+     margin-top:3vh;
+ }
+
+ .top {
+     visibility: visible;
+     display: block;
+     
+     
+ }
 }
