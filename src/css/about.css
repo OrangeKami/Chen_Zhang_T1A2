@@ -44,7 +44,9 @@ body {
     background: lightcyan;   
 }
 
-
+.me {
+    margin-bottom: 10vh;
+}
 
 .me h5 {
     margin-top: 10vh;

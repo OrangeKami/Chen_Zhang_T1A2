@@ -47,6 +47,7 @@ body {
 .contact {
     margin-top: 10vh;
     margin-left: 15vh;
+    padding-bottom: 10vh;
 }
 
 .contact h1 {
@@ -93,7 +94,7 @@ body {
     line-height: 40px;
 }
 
-.contact .row{
+.contact .row {
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
@@ -105,7 +106,6 @@ body {
     padding:0 2rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     border-radius: .5rem;
-    
 }
 
 .contact .row form .single-form,
