@@ -221,7 +221,15 @@ span {
  }
 
  .me .net {
-     min-width: 450px;
+     min-width: 250px;
+     /* width: auto; */
+     height: auto;
+     /* max-height: 800px; */
+    margin-left: -50px;
+ }
+
+ .me .person {
+     margin-left: 25%;
  }
 
  .me h5,
