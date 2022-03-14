@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     position: fixed;
     width: 100%;
-    height: 5%;
+    height: 50px;
     background: linear-gradient(90deg, white 30%, skyblue);
     z-index: 100;
     top:0;
