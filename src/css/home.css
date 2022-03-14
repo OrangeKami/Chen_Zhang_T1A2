@@ -58,7 +58,7 @@ article {
     width: 700px; */
     flex: 0 1 700px;
     margin-top: 35vh;
-    margin-left: 30vh;
+    margin-left: 15%;
     line-height: 8;
     position: relative;
 }
