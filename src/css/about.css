@@ -168,6 +168,23 @@ h4 {
     box-shadow: 0px 14px 80px rgb(255, 187, 0);
 }
 
+.top {
+    text-align: center;
+    text-transform: initial;
+    font-size: 10px;
+    color: orange;  
+    margin-bottom: 20%; 
+    visibility: hidden;
+}
+
+.top span {
+    font-size: 20px;
+}
+
+.top a {
+    color: lightblue;
+}
+
 
 footer {
     display: flex;
@@ -238,4 +255,8 @@ span {
      margin-top:3vh;
  }
 
+ .top {
+     visibility: visible;
+     
+ }
 }
