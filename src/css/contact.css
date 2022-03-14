@@ -73,6 +73,7 @@ body {
     flex: 1 1 450px;
     letter-spacing: 2px;
     color: orange;
+    box-shadow: 0px 14px 80px rgba(255, 187, 0, 0.1);
 }
 .icon i {
     height:80px;
@@ -201,7 +202,7 @@ span {
 }
  
  .contact {
-     padding-left: 5vh;
+     padding-left: 7vh;
      transition: 0.5s ease-in-out;
  }
 }
