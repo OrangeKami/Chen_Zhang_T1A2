@@ -40,6 +40,9 @@ li a:hover {
     letter-spacing: 3px;
 }
 
+body {
+    background-color: lightcyan;
+}
 
 .contact {
     padding: 15vh;
@@ -197,5 +200,8 @@ span {
     min-width: 300px;
 }
  
- 
+ .contact {
+     padding-left: 5vh;
+     transition: 0.5s ease-in-out;
+ }
 }
