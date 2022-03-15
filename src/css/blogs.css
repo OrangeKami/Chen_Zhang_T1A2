@@ -45,12 +45,13 @@ body {
     background-color: lightcyan;
 }
 
-.blog h1 {
+.blog h3 {
     padding-top: 10vh;
     padding-left: 15vh;
     font-size: 40px;
-    text-transform: uppercase;
+    text-transform: inherit;
 }
+   
 
 .blog-slider {
     position: relative;
@@ -106,15 +107,14 @@ body {
   article {
     padding-right: 25px;
     margin: 10px;
-    
     width: 70%;
   }
 
   @media screen and (max-width: 1250px) {
-    .blog-slider_content {
+    article {
       margin-top: -80px;
-      text-align: center;
-      padding: 0 30px;
+      padding: 0px 5px;
+      
     }
   }
  
@@ -125,7 +125,7 @@ body {
     font-weight: 500;
   }
 
-  article h1 {
+  article h2 {
     font-size: 24px;
     font-weight: 700;
     color: #0d0925;
@@ -157,7 +157,7 @@ body {
         text-align: center;
         text-transform: initial;
         font-size: 10px;
-        color: orange;   
+        color: orange; 
     }
 
     .top span {
@@ -220,10 +220,10 @@ span {
      height: auto;
  }
 
- .blog h1 {
-     padding-left: 5vh;
-     transition: 0.5s ease-in-out;
+ .blog h3 {
+    padding-left: 5vh;
+    padding-top: 5vh;
+    
  }
-
 
 }
