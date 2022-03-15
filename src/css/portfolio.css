@@ -84,6 +84,11 @@ figcaption .project:hover {
 }
 
 @media only screen and (max-width: 850px) {
+    
+    figcaption {
+        padding-top: 8vh;
+    }
+    
     figcaption .project{
         min-width: 400px;
     }
@@ -96,6 +101,11 @@ figcaption .project:hover {
     figcaption .btm {
       margin-top: 100px;
       padding: 10px 10px;
+    }
+
+    h3 {
+        margin-left: 2vh;
+        margin-top: 5vh;
     }
 }
     
@@ -204,8 +214,5 @@ span {
  header {
      height: auto;
  }
-
- 
-
 
 }

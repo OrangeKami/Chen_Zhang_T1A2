@@ -156,6 +156,7 @@ h4 {
     margin: 3vh 15vh;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 5vh;
 }
 
 
@@ -251,8 +252,8 @@ span {
 
  .me h5,
  .me h4 {
-     margin-left: 8vh;
-     margin-top:3vh;
+    margin-left: 5vh;
+    margin-top: 5vh;
  }
 
  .top {
