@@ -66,3 +66,4 @@ Description of your portfolio website
                                                           :nth-child()
   
   Deployment Platform: Netlify.com
+  Slide deck: [An Internal Link](/ppt/Portfolio.pptx)
